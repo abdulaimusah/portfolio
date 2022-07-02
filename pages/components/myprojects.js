@@ -1,5 +1,5 @@
 
-import "../../public/random-quote-image.png";
+
 
 
 const MyProjects = () => {
@@ -20,8 +20,8 @@ const MyProjects = () => {
        <section className="flex flex-col items-center
        pt-10" >
            { items.map(item => (
-               <div className="sm:w-3/4 md:w-3/5
-               lg:w-2/5 pb-12" >
+               <div className="sm:w-2/3 md:w-3/5 
+               lg:w-1/2 pb-12" >
                    <h2 className="font-semibold 
                    mb-2" >{item.name}</h2>
                    <div className="p-2 flex items-center
@@ -34,7 +34,7 @@ const MyProjects = () => {
                        <a href={item.repo} target="blank" >
                            <button className="px-2 py-1
                            bg-cyan-900 text-white
-                           rounded-sm">View github repo</button>
+                           rounded-sm">View Git repository</button>
 
                        </a>
                    </div>
