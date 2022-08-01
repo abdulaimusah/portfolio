@@ -9,14 +9,15 @@ const MyProjects = () => {
         picture: "/shop.PNG", 
         repo: "https://github.com/abdulaimusah/shop",
         site: "https://shop-ashen-tau.vercel.app/"},
-        {name: "Random Quote and Image App",
-        picture: "/webimage.PNG", 
-        repo: "https://github.com/abdulaimusah/random-quote-image",
-        site: "https://random-quote-image.vercel.app/image"},
         {name: "Blog", 
         picture: "/blog.PNG", 
         repo: "https://github.com/abdulaimusah/blog-frontend",
-        site: "https://blog-ochre-beta.vercel.app/"}
+        site: "https://blog-ochre-beta.vercel.app/"},
+        {name: "Random Quote and Image App",
+        picture: "/webimage.PNG", 
+        repo: "https://github.com/abdulaimusah/random-quote-image",
+        site: "https://random-quote-image.vercel.app/image"}
+        
     ]
 
 

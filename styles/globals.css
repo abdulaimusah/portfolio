@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "newadobe";
+    src: url("/New-Yorker-Font/ACaslonPro-Regular.otf");
+}
+@font-face {
+    font-family: "newhead";
+    src: url("/New-Yorker-Font/ACaslonPro-BoldItalic.otf");
+}

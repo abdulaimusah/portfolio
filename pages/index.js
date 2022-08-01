@@ -4,8 +4,9 @@ import MyProjects from './components/myprojects';
 
 export default function Home() {
   return(
-    <div className="min-h-screen flex flex-col 
-    font-medium " >
+    <div className="min-h-screen flex flex-col font-sans
+    font-medium"
+    style={{fontFamily: "newadobe"}} >
       <Head>
         <title>Abdulai Musah</title>
         <link rel="icon" href="/favicon.ico" />
@@ -35,11 +36,23 @@ export default function Home() {
       </header>
       <main className="p-4 flex-grow flex flex-col 
       items-center shadow-md shadow-gray-400  
+      bg-gradient-to-r from-sky-900/40 
+      via-gray-400/50
+      to-pink-900/40
       font-smooth " >
-        <h2 className="font-medium 
-        text-lg" >Introduction</h2>
+
+<div class="text-5xl font-extrabold">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500
+   via-green-500 to-violet-500" 
+   style={{fontFamily: "newhead"}}  >
+    
+    ABDULAI MUSAH
+  </span>
+</div>
+
+
         <p className="sm:w-2/3 md:w-3/5
-               lg:w-1/2 font-normal text-base font-serif
+               lg:w-1/2 font-normal text-lg
                antialiased"
          >I'm a web developer.<br></br>
         I develop mobile-friendly and responsive sites and apps<br/>
