@@ -7,6 +7,46 @@
     src: url("/New-Yorker-Font/ACaslonPro-Regular.otf");
 }
 @font-face {
-    font-family: "newhead";
+    font-family: "mysoul";
+    src: url("/My_Soul/MySoul-Regular.ttf");
+}
+@font-face {
+    font-family: "newitalic";
     src: url("/New-Yorker-Font/ACaslonPro-BoldItalic.otf");
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    60% {
+      font-size: 200%;
+      margin-left: 60%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+.slidetext {
+    animation: slidein 3s ease-in 5s alternate ;
+}  
+
+.rotateitem {
+    animation-name: rotatein;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rotatein {
+    0% {
+        transform: rotateY(0deg);
+    }
+    10%, 100% {
+        transform: rotateY(360deg)
+    }
 }

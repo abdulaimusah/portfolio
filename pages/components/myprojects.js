@@ -23,10 +23,15 @@ const MyProjects = () => {
 
     return(
        <section className="flex flex-col items-center
-       pt-10" >
+       pt-10 
+        " 
+        style={{perspective: "500px"}}
+        >
            { items.map(item => (
                <div className="sm:w-2/3 md:w-3/5 
-               lg:w-1/2 pb-12" >
+               lg:w-1/2 pb-12 "
+               style={{perspective: "1000px"}}
+                >
                    <h2 className="font-semibold 
                    mb-2" >{item.name}</h2>
                    <div className="p-2 flex items-center
@@ -46,7 +51,8 @@ const MyProjects = () => {
                    <img src={item.picture} 
                    alt={item.name} 
                    className="rounded shadow shadow-gray-200
-                   w-full h-auto border border-gray-300 " />
+                   w-full h-auto border border-gray-300 rotateitem "
+                    />
                    
                </div>
            ))}

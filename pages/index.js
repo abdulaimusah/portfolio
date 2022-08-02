@@ -41,24 +41,27 @@ export default function Home() {
       to-pink-900/40
       font-smooth " >
 
-<div class="text-5xl font-extrabold">
+<div class="text-7xl font-extrabold">
   <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500
    via-green-500 to-violet-500" 
-   style={{fontFamily: "newhead"}}  >
+   style={{fontFamily: "mysoul"}}  >
     
-    ABDULAI MUSAH
+    Abdulai Musah
   </span>
 </div>
 
 
         <p className="sm:w-2/3 md:w-3/5
-               lg:w-1/2 font-normal text-lg
-               antialiased"
-         >I'm a web developer.<br></br>
-        I develop mobile-friendly and responsive sites and apps<br/>
+               lg:w-1/2 font-normal text-lg overflow-hidden
+                slidetext "
+         >I'm an expert web developer.<br></br>
+        I develop fast, mobile-friendly, responsive, interactive
+        and accessible websites and webapps<br/>
         I have expertise in Javascript, ReactJS, Angular, 
-        ExpressJS, CSS3, HTML5, MongoDB, and NodeJS.<br/>
-        <span>Below are projects I have developed</span>
+        ExpressJS, CSS3, HTML5, SQL, MongoDB, and NodeJS.<br/>
+        <span className="pt-12 block "
+        style={{fontFamily:"newitalic"}} 
+         >These are projects I have designed and developed</span>
         </p>
         <MyProjects /> 
       </main>
