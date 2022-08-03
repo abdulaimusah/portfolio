@@ -50,8 +50,7 @@ const MyProjects = () => {
                    </div>
                    <img src={item.picture} 
                    alt={item.name} 
-                   className="rounded shadow shadow-gray-200
-                   w-full h-auto border border-gray-300 rotateitem "
+                   className=" w-full h-auto rotateitem "
                     />
                    
                </div>
