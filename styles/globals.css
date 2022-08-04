@@ -71,38 +71,36 @@
     }
 }
 
-.wiggle {
-    animation: wiggle 5s linear 10s alternate infinite;
-}
-.board .front {
+
+.board .one {
     transform: translateZ(120px);
   }
   
-.board  .back {
+.board  .two {
    
     transform: rotateY(45deg) translateZ(120px);
   }
   
-.board  .right {
+.board  .three {
     transform: rotateY(90deg) translateZ(120px);
   }
   
-.board .left {
+.board .four {
     transform: rotateY(135deg) translateZ(120px);
   }
   
-.board  .top {
+.board  .five {
     transform: rotateY(-180deg) translateZ(120px);
   }
   
-.board  .bottom {
+.board  .six {
     transform: rotateY(-45deg) translateZ(120px);
   }
 
-.board  .other {
+.board  .seven {
   transform: rotateY(-90deg) translateZ(120px);
 }
-.board .another {
+.board .eight {
   transform: rotateY(-135deg) translateZ(120px);
 }
 
@@ -138,10 +136,6 @@
 @keyframes rotateboard {
     0% {
       transform: rotate3d(0, 0.95, 0.05, 0deg);
-    }
-
-    50% {
-      transform: rotate3d(0, 0.95, 0.05, -180deg)
     }
 
     100% {

@@ -20,7 +20,7 @@ export default function Home() {
         <button className="py-1 px-2 bg-blue-800
         hover:bg-blue-600 active:bg-blue-600
         rounded-md " >
-          Contact me</button>
+          Contact me </button>
         </a>
         {/*<button className="py-1 px-2 bg-indigo-700
         hover:bg-indigo-500 active:bg-indigo-500
@@ -68,15 +68,18 @@ export default function Home() {
          >These are projects I have designed and developed</span>
         <MyProjects /> 
       </main>
-      <footer className="text-white flex h-72
-      items-start justify-center flex-shrink-0 pt-4 "
+      <footer className="text-white flex
+      flex-col md:flex-row justify-around
+      pt-4 pb-8
+      items-center flex-shrink-0  "
       style={{perspective: "500px"}} 
        >
         <a href="mailto:abdulaimusah31@gmail.com" >
+        
         <button className="py-1 px-2 bg-blue-800
         hover:bg-blue-600 active:bg-blue-600
-        rounded-md wiggle"
-         >Send email</button>
+        rounded-md"
+         >Send me an email</button> 
         </a>
         <Board />
       </footer>
