@@ -31,6 +31,7 @@ const MyProjects = () => {
                <div className="sm:w-2/3 md:w-3/5 
                lg:w-1/2 pb-12 "
                style={{perspective: "1000px"}}
+               key={`${item.name}${item.site}`}
                 >
                    <h2 className="font-semibold 
                    mb-2" >{item.name}</h2>
