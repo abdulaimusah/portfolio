@@ -35,7 +35,7 @@ export default function Home() {
 
         </a>
 
-        <a href="https://linkedin.com/in/abdulai-musah-4b7b5723a"
+        <a href="https://linkedin.com/in/abdulaimusah"
         target="blank"
          className="block" >
         <svg className="stroke-white fill-blue-700"
