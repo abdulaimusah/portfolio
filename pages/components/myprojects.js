@@ -6,7 +6,7 @@ const MyProjects = () => {
 
     const items = [
         {name: "Full-stack E-commerce Shop",
-         picture: "/ecom.webp", 
+         picture: "/ecom.PNG", 
         repo: "https://github.com/abdulaimusah/mystore",
         site: "https://mystore-5y1b.onrender.com",},
         {name: "E-commerce App",
