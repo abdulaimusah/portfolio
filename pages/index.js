@@ -78,7 +78,7 @@ export default function Home() {
          I'm an expert web developer.<br></br>
         I develop fast, mobile-friendly, responsive, interactive
         and accessible websites and webapps<br/>
-        I have expertise in Javascript, ReactJS, Angular, 
+        I have expertise in Javascript, ReactJS, C#, PHP 
         ExpressJS, CSS3, HTML5, SQL, MongoDB, and NodeJS.<br/>
         </p>
         </p>
