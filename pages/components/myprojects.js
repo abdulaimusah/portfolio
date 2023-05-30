@@ -17,6 +17,11 @@ const MyProjects = () => {
         site: "https://blog-ochre-beta.vercel.app/"}, 
         */
 		{
+			name: "WordPress Booking Plugin",
+			picture: "/plugin.PNG",
+			repo: "https://github.com/abdulaimusah/booking-plugin",
+		},
+		{
 			name: "Pokemon App",
 			picture: "/pokebook.PNG",
 			repo: "https://github.com/abdulaimusah/pokebook",
